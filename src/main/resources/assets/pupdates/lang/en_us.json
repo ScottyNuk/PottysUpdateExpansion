@@ -1,0 +1,41 @@
+{
+
+
+
+  "item.pupdates.resin_brick": "Resin Brick",
+  "item.pupdates.resin_clump": "Resin Clump",
+  "item.pupdates.blue_egg": "Blue Egg",
+  "item.pupdates.brown_egg": "Brown Egg",
+  "item.pupdates.artifact": "Conversion Artifact",
+
+
+  "block.pupdates.resin_bricks": "Resin Bricks",
+  "block.pupdates.resin_block": "Resin Block",
+  "block.pupdates.chiseled_resin_bricks": "Resin Bricks",
+
+
+
+  "block.pupdates.pale_oak_log": "Pale Oak Log",
+  "block.pupdates.pale_oak_wood": "Pale Oak Wood",
+  "block.pupdates.stripped_pale_oak_log": "Stripped Pale Oak Log",
+  "block.pupdates.stripped_pale_oak_wood": "Stripped Pale Oak Wood",
+  "block.pupdates.pale_oak_sapling": "Pale Oak Sapling",
+  "block.pupdates.pale_oak_leaves": "Pale Oak Leaves",
+
+  "block.pupdates.pale_oak_planks": "Pale Oak Planks",
+  "block.pupdates.pale_oak_stairs": "Pale Oak Stairs",
+  "block.pupdates.pale_oak_slab": "Pale Oak Slab",
+  "block.pupdates.pale_oak_button": "Pale Oak Button",
+  "block.pupdates.pale_oak_fence": "Pale Oak Fence",
+  "block.pupdates.pale_oak_fence_gate": "Pale Oak Fence Gate",
+  "block.pupdates.pale_oak_trap_door": "Pale Oak Trapdoor",
+  "block.pupdates.pale_oak_door": "Pale Oak Door",
+  "block.pupdates.pale_oak_pressure_plate": "Pale Oak Pressure Plate",
+
+
+
+
+  "itemgroup.pupdates.update_items_1": "1.21.5 Items",
+  "itemgroup.pupdates.update_blocks_1": "1.21.5 Blocks",
+  "itemgroup.pupdates.mod_items": "Modded Update Items"
+}
