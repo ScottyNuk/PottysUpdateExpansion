@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pupdates:block/hanging_pale_moss"
+  }
+}

@@ -34,6 +34,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RESIN_BRICKS);
                         entries.add(ModBlocks.CHISELED_RESIN_BRICKS);
 
+                        entries.add(ModBlocks.PALE_MOSS);
+                        entries.add(ModBlocks.PALE_MOSS_CARPET);
+                        entries.add(ModBlocks.HANGING_PALE_MOSS);
+
 
                         entries.add(ModBlocks.PALE_OAK_LOG);
                         entries.add(ModBlocks.PALE_OAK_WOOD);

@@ -6,9 +6,10 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.potty.pupdates.PottysUpdates;
+import net.potty.pupdates.block.custom.HangingPaleMossBlock;
+import net.potty.pupdates.world.tree.ModSaplingGenerators;
 
 import static net.minecraft.block.Blocks.*;
 
@@ -22,6 +23,15 @@ public class ModBlocks {
 
     public static final Block CHISELED_RESIN_BRICKS = registerBlock("chiseled_resin_bricks",
             new Block(AbstractBlock.Settings.create()));
+
+    public static final Block PALE_MOSS = registerBlock("pale_moss",
+            new MossBlock(AbstractBlock.Settings.copy(MOSS_BLOCK)));
+
+    public static final Block PALE_MOSS_CARPET = registerBlock("pale_moss_carpet",
+            new CarpetBlock(AbstractBlock.Settings.copy(MOSS_CARPET)));
+
+    public static final Block HANGING_PALE_MOSS = registerBlock("hanging_pale_moss",
+            new HangingPaleMossBlock(AbstractBlock.Settings.copy(GLOW_LICHEN)));
 
 
 
@@ -49,7 +59,7 @@ public class ModBlocks {
             new LeavesBlock(AbstractBlock.Settings.copy(OAK_LEAVES)));
 
     public static final Block PALE_OAK_SAPLING = registerBlock("pale_oak_sapling",
-            new SaplingBlock(, AbstractBlock.Settings.copy(OAK_SAPLING)));
+            new SaplingBlock(ModSaplingGenerators.PALE_OAK, AbstractBlock.Settings.copy(OAK_SAPLING)));
 
 
 

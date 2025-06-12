@@ -1,0 +1,6 @@
+{
+  "parent": "block/carpet",
+  "textures": {
+    "wool": "pupdates:block/pale_moss_carpet"
+  }
+}

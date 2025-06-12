@@ -45,6 +45,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_RESIN_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RESIN_BLOCK);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALE_MOSS);
+
+
+
 
     }
 

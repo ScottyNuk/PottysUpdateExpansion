@@ -10,6 +10,7 @@ public class PottysUpadatesClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALE_OAK_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HANGING_PALE_MOSS, RenderLayer.getCutout());
 
     }
 }

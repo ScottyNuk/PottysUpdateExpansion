@@ -16,13 +16,16 @@ import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.trunk.DarkOakTrunkPlacer;
 import net.potty.pupdates.PottysUpdates;
 import net.potty.pupdates.block.ModBlocks;
-import net.potty.pupdates.world.gen.treedecorator.PaleMossTreeDecorator;
 
 import java.util.OptionalInt;
 
 public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>>PALE_OAK_KEY = registerKey("pale_oak");
+
+
+
+
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
 
@@ -33,10 +36,7 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.of(ModBlocks.PALE_OAK_LEAVES),
                 new DarkOakFoliagePlacer(ConstantIntProvider.create(0), ConstantIntProvider.create(0)),
                 new ThreeLayersFeatureSize(1, 1, 0, 1, 2, OptionalInt.empty())
-                )
-                        .decorators(ImmutableList.of(new PaleMossTreeDecorator(0.15F, 0.4F, 0.8F)))
-                        .ignoreVines()
-                        .build()
+                ).ignoreVines().build()
         );
 
 
