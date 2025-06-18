@@ -21,7 +21,10 @@ public class HangingPaleMossBlock extends Block implements Fertilizable {
     private static final VoxelShape TIP_SHAPE = ModBlock.createColumnShape(14.0, 2.0, 16.0);
 
     public HangingPaleMossBlock(Settings settings) {
-        super(settings.nonOpaque().noCollision().ticksRandomly());
+        super(settings
+                .nonOpaque()
+                .noCollision()
+                .ticksRandomly());
         setDefaultState(this.getDefaultState().with(TIP, true));
     }
 
@@ -39,7 +42,7 @@ public class HangingPaleMossBlock extends Block implements Fertilizable {
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         BlockState above = world.getBlockState(pos.up());
         return above.isSideSolidFullSquare(world, pos.up(), Direction.DOWN)
-                || above.isOf(this); // Allow hanging from itself
+                || above.isOf(this);
     }
 
     @Override

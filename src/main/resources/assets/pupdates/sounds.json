@@ -1,0 +1,10 @@
+{
+  "block.deadbush.idle": {
+    "subtitle": "sounds.pupdates.block.deadbush.idle",
+    "sounds": [
+      "pupdates.block.deadbush:bushrustle1"
+    ]
+
+
+  }
+}

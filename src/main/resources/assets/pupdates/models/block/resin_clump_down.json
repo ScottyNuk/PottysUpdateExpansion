@@ -1,0 +1,11 @@
+{
+  "parent": "block/block",
+  "textures": { "particle": "pupdates:block/resin_clump" },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 0.1, 16],
+      "faces": { "up": { "texture": "#particle" } }
+    }
+  ]
+}

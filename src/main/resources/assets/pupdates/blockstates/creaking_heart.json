@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "state=off":    { "model": "pupdates:block/creaking_heart_off" },
+    "state=dormant": { "model": "pupdates:block/creaking_heart_dormant" },
+    "state=on":     { "model": "pupdates:block/creaking_heart_on" }
+  }
+}

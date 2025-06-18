@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "pupdates:block/creaking_heart_top_dormant",
+    "down": "pupdates:block/creaking_heart_top_dormant",
+    "north": "pupdates:block/creaking_heart_dormant",
+    "south": "pupdates:block/creaking_heart_dormant",
+    "east": "pupdates:block/creaking_heart_dormant",
+    "west": "pupdates:block/creaking_heart_dormant"
+  }
+}

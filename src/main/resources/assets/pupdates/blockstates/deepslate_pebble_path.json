@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north,segment_amount=1": { "model": "pupdates:block/deepslate_pebble_path_1", "y": 0 },
+    "facing=east,segment_amount=1":  { "model": "pupdates:block/deepslate_pebble_path_1", "y": 90 },
+    "facing=south,segment_amount=1": { "model": "pupdates:block/deepslate_pebble_path_1", "y": 180 },
+    "facing=west,segment_amount=1":  { "model": "pupdates:block/deepslate_pebble_path_1", "y": 270 },
+
+    "facing=north,segment_amount=2": { "model": "pupdates:block/deepslate_pebble_path_2", "y": 0 },
+    "facing=east,segment_amount=2":  { "model": "pupdates:block/deepslate_pebble_path_2", "y": 90 },
+    "facing=south,segment_amount=2": { "model": "pupdates:block/deepslate_pebble_path_2", "y": 180 },
+    "facing=west,segment_amount=2":  { "model": "pupdates:block/deepslate_pebble_path_2", "y": 270 },
+
+    "facing=north,segment_amount=3": { "model": "pupdates:block/deepslate_pebble_path_3", "y": 0 },
+    "facing=east,segment_amount=3":  { "model": "pupdates:block/deepslate_pebble_path_3", "y": 90 },
+    "facing=south,segment_amount=3": { "model": "pupdates:block/deepslate_pebble_path_3", "y": 180 },
+    "facing=west,segment_amount=3":  { "model": "pupdates:block/deepslate_pebble_path_3", "y": 270 },
+
+    "facing=north,segment_amount=4": { "model": "pupdates:block/deepslate_pebble_path_4", "y": 0 },
+    "facing=east,segment_amount=4":  { "model": "pupdates:block/deepslate_pebble_path_4", "y": 90 },
+    "facing=south,segment_amount=4": { "model": "pupdates:block/deepslate_pebble_path_4", "y": 180 },
+    "facing=west,segment_amount=4":  { "model": "pupdates:block/deepslate_pebble_path_4", "y": 270 }
+  }
+}

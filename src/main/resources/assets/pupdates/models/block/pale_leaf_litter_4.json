@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "pupdates:block/pale_leaf_litter_4",
+    "texture": "pupdates:block/pale_leaf_litter_4"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 0.10, 16],
+      "faces": {
+        "up": { "texture": "#texture" }
+      }
+    }
+  ]
+}

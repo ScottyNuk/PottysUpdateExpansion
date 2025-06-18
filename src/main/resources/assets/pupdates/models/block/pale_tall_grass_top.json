@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "pupdates:block/pale_tall_grass_top"
+  }
+}

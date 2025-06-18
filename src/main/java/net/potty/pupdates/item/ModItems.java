@@ -11,9 +11,10 @@ public class ModItems {
 
     //1.21.5 Items
     public static final Item RESIN_BRICK =registerItem("resin_brick", new Item(new Item.Settings()));
-    public static final Item RESIN_CLUMP =registerItem("resin_clump", new Item(new Item.Settings()));
     public static final Item BLUE_EGG =registerItem("blue_egg", new Item(new Item.Settings()));
     public static final Item BROWN_EGG =registerItem("brown_egg", new Item(new Item.Settings()));
+
+    public static final Item CKINGS_HEART =registerItem("ckings_heart", new Item(new Item.Settings()));
 
 
 

@@ -22,7 +22,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PALE_OAK_LOG.asItem())
                 .add(ModBlocks.STRIPPED_PALE_OAK_LOG.asItem())
                 .add(ModBlocks.PALE_OAK_WOOD.asItem())
-                .add(ModBlocks.STRIPPED_PALE_OAK_WOOD.asItem());
+                .add(ModBlocks.STRIPPED_PALE_OAK_WOOD.asItem())
+
+                .add(ModBlocks.MAPLE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_MAPLE_LOG.asItem())
+                .add(ModBlocks.MAPLE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_MAPLE_WOOD.asItem());
+
 
 
     }

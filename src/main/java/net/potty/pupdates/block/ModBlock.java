@@ -21,4 +21,13 @@ public class ModBlock {
                 (8.0 + e) / 16.0
         );
     }
+
+    public static VoxelShape createCuboidShape(double minX, double minY, double minZ, double maxX, double maxY, double maxZ) {
+        return VoxelShapes.cuboid(minX / 16.0, minY / 16.0, minZ / 16.0, maxX / 16.0, maxY / 16.0, maxZ / 16.0);
+    }
+
+    public static VoxelShape createCuboidZShape(double sizeX, double minY, double maxY, double minZ, double maxZ) {
+        double d = sizeX / 2.0;
+        return createCuboidShape(8.0 - d, minY, minZ, 8.0 + d, maxY, maxZ);
+    }
 }

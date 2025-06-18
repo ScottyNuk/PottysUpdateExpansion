@@ -19,9 +19,9 @@ public class ModItemGroups {
                     .displayName(Text.translatable("ItemGroup.pupdates.update_items_1"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RESIN_BRICK);
-                        entries.add(ModItems.RESIN_CLUMP);
                         entries.add(ModItems.BLUE_EGG);
                         entries.add(ModItems.BROWN_EGG);
+                        entries.add(ModItems.CKINGS_HEART);
                     }).build());
 
     public static final ItemGroup UPDATE_BLOCKS_1 = Registry.register(Registries.ITEM_GROUP,
@@ -30,9 +30,41 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.RESIN_BRICKS))
                     .displayName(Text.translatable("ItemGroup.pupdates.update_blocks_1"))
                     .entries((displayContext, entries) -> {
+
+                        entries.add(ModBlocks.CREAKING_HEART);
+                        entries.add(ModBlocks.DESERT_POPPY);
+
+
+
+                        entries.add(ModBlocks.RESIN_CLUMP);
                         entries.add(ModBlocks.RESIN_BLOCK);
                         entries.add(ModBlocks.RESIN_BRICKS);
                         entries.add(ModBlocks.CHISELED_RESIN_BRICKS);
+
+                        entries.add(ModBlocks.SHORT_DRY_GRASS);
+                        entries.add(ModBlocks.TALL_DRY_GRASS);
+                        entries.add(ModBlocks.FIREFLY_BUSH);
+                        entries.add(ModBlocks.DEAD_FIREFLY_BUSH);
+                        entries.add(ModBlocks.WILDFLOWERS);
+
+                        entries.add(ModBlocks.CACTUS_FLOWER);
+
+
+                        entries.add(ModBlocks.LEAF_LITTER);
+                        entries.add(ModBlocks.DRY_LEAF_LITTER);
+                        entries.add(ModBlocks.AUTUMN_LEAF_LITTER);
+                        entries.add(ModBlocks.DARK_LEAF_LITTER);
+                        entries.add(ModBlocks.CHERRY_LEAF_LITTER);
+                        entries.add(ModBlocks.FRESH_LEAF_LITTER);
+                        entries.add(ModBlocks.PALE_LEAF_LITTER);
+
+                        entries.add(ModBlocks.DEEPSLATE_PEBBLE_PATH);
+                        entries.add(ModBlocks.MOSSY_PEBBLE_PATH);
+                        entries.add(ModBlocks.PEBBLE_PATH);
+                        entries.add(ModBlocks.BUSH);
+
+                        entries.add(ModBlocks.PALE_SHORT_GRASS);
+                        entries.add(ModBlocks.PALE_TALL_GRASS);
 
                         entries.add(ModBlocks.PALE_MOSS);
                         entries.add(ModBlocks.PALE_MOSS_CARPET);
@@ -56,6 +88,29 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALE_OAK_DOOR);
                         entries.add(ModBlocks.PALE_OAK_BUTTON);
                         entries.add(ModBlocks.PALE_OAK_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.MAPLE_LOG);
+                        entries.add(ModBlocks.MAPLE_WOOD);
+                        entries.add(ModBlocks.STRIPPED_MAPLE_LOG);
+                        entries.add(ModBlocks.STRIPPED_MAPLE_WOOD);
+
+                        entries.add(ModBlocks.MAPLE_SAPLING);
+                        entries.add(ModBlocks.MAPLE_LEAVES);
+                        entries.add(ModBlocks.MAPLE_LEAVES_RED);
+                        entries.add(ModBlocks.MAPLE_LEAVES_ORANGE);
+                        entries.add(ModBlocks.MAPLE_LEAVES_YELLOW);
+
+                        entries.add(ModBlocks.MAPLE_PLANKS);
+                        entries.add(ModBlocks.MAPLE_STAIRS);
+                        entries.add(ModBlocks.MAPLE_SLAB);
+                        entries.add(ModBlocks.MAPLE_FENCE);
+                        entries.add(ModBlocks.MAPLE_FENCE_GATE);
+                        entries.add(ModBlocks.MAPLE_TRAP_DOOR);
+                        entries.add(ModBlocks.MAPLE_DOOR);
+                        entries.add(ModBlocks.AUTUMN_MAPLE_DOOR);
+                        entries.add(ModBlocks.AUTUMN_MAPLE_TRAP_DOOR);
+                        entries.add(ModBlocks.MAPLE_BUTTON);
+                        entries.add(ModBlocks.MAPLE_PRESSURE_PLATE);
 
 
                     }).build());

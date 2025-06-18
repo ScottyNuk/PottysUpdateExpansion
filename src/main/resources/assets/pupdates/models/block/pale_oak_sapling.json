@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pupdates:block/pale_oak_sapling"
+  }
+}
