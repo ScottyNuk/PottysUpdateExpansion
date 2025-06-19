@@ -2,9 +2,12 @@ package net.potty.pupdates;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.potty.pupdates.block.ModBlocks;
+import net.potty.pupdates.entity.ModEntities;
+import net.potty.pupdates.entity.custom.ColdChickenEntity;
 import net.potty.pupdates.event.ModEvents;
 import net.potty.pupdates.item.ModItemGroups;
 import net.potty.pupdates.item.ModItems;
@@ -28,6 +31,7 @@ public class PottysUpdates implements ModInitializer {
 		ModEvents.registerModEvents();
 
 		ModWorldGeneration.generateModWorldGen();
+		ModEntities.registerModEntities();
 
 
 		StrippableBlockRegistry.register(ModBlocks.PALE_OAK_LOG, ModBlocks.STRIPPED_PALE_OAK_LOG);
@@ -54,6 +58,10 @@ public class PottysUpdates implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_LEAVES_RED, 30, 60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_LEAVES_ORANGE, 30, 60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_LEAVES_YELLOW, 30, 60);
+
+		FabricDefaultAttributeRegistry.register(ModEntities.COLD_CHICKEN, ColdChickenEntity.createChickenAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.WARM_CHICKEN, ColdChickenEntity.createChickenAttributes());
+
 
 	}
 }
