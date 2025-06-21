@@ -81,6 +81,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RESIN_BRICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAPLE_LEAF, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLUE_EGG, Models.GENERATED);
         itemModelGenerator.register(ModItems.BROWN_EGG, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARTIFACT, Models.GENERATED);

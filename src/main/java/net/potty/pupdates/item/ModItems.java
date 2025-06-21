@@ -16,6 +16,8 @@ public class ModItems {
 
     public static final Item CKINGS_HEART =registerItem("ckings_heart", new Item(new Item.Settings()));
 
+    public static final Item MAPLE_LEAF =registerItem("maple_leaf", new Item(new Item.Settings()));
+
 
 
 

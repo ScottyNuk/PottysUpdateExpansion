@@ -12,6 +12,8 @@ import net.potty.pupdates.event.ModEvents;
 import net.potty.pupdates.item.ModItemGroups;
 import net.potty.pupdates.item.ModItems;
 import net.potty.pupdates.particle.ModParticles;
+import net.potty.pupdates.recipe.ModRecipeTypes;
+import net.potty.pupdates.screen.ModScreenHandlers;
 import net.potty.pupdates.sound.ModSounds;
 import net.potty.pupdates.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
@@ -29,9 +31,11 @@ public class PottysUpdates implements ModInitializer {
 		ModSounds.registerSounds();
 		ModParticles.registerParticles();
 		ModEvents.registerModEvents();
+		ModScreenHandlers.registerScreenHandlers();
 
 		ModWorldGeneration.generateModWorldGen();
 		ModEntities.registerModEntities();
+		ModRecipeTypes.registerModRecipeTypes();
 
 
 		StrippableBlockRegistry.register(ModBlocks.PALE_OAK_LOG, ModBlocks.STRIPPED_PALE_OAK_LOG);

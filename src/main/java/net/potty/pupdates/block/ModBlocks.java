@@ -22,21 +22,6 @@ import static net.minecraft.block.Blocks.*;
 public class ModBlocks {
 
 
-    public static final Block DESERT_POPPY = registerBlock(
-            "desert_poppy",
-            new FlowerBlock(
-                    StatusEffects.NIGHT_VISION,
-                    5.0F,
-                    AbstractBlock.Settings.create()
-                            .mapColor(MapColor.DARK_GREEN)
-                            .noCollision()
-                            .breakInstantly()
-                            .sounds(BlockSoundGroup.GRASS)
-                            .offset(AbstractBlock.OffsetType.XZ)
-                            .pistonBehavior(PistonBehavior.DESTROY)
-            )
-    );
-
 
     public static final Block CREAKING_HEART = registerBlock("creaking_heart",
             new CreakingHeartBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)
@@ -46,6 +31,9 @@ public class ModBlocks {
 
     public static final Block RESIN_CLUMP = registerBlock("resin_clump",
             new ResinClumpBlock(AbstractBlock.Settings.copy(SLIME_BLOCK).nonOpaque().noCollision().luminance(state -> 3)));
+
+    public static final Block UPDATE_ALTAR = registerBlock("update_altar",
+            new UpdateAltarBlock(AbstractBlock.Settings.create()));
 
 
 

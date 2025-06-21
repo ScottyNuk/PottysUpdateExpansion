@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.minecraft.util.Identifier;
@@ -16,6 +17,8 @@ import net.potty.pupdates.entity.client.WarmChickenModel;
 import net.potty.pupdates.entity.client.WarmChickenRenderer;
 import net.potty.pupdates.particle.FireflyParticle;
 import net.potty.pupdates.particle.ModParticles;
+import net.potty.pupdates.screen.ModScreenHandlers;
+import net.potty.pupdates.screen.custom.UpdateAltarScreen;
 
 public class PottysUpadatesClient implements ClientModInitializer {
 
@@ -27,6 +30,11 @@ public class PottysUpadatesClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+
+        HandledScreens.register(ModScreenHandlers.UPDATE_ALTAR, UpdateAltarScreen::new);
+
+
+
 
         // Particle
         ParticleFactoryRegistry.getInstance().register(ModParticles.FIREFLY, FireflyParticle.Factory::new);
@@ -65,13 +73,16 @@ public class PottysUpadatesClient implements ClientModInitializer {
         map.putBlock(ModBlocks.WILDFLOWERS, RenderLayer.getCutout());
         map.putBlock(ModBlocks.BUSH, RenderLayer.getCutout());
         map.putBlock(ModBlocks.CACTUS_FLOWER, RenderLayer.getCutout());
-        map.putBlock(ModBlocks.DESERT_POPPY, RenderLayer.getCutout());
 
         map.putBlock(ModBlocks.MAPLE_DOOR, RenderLayer.getTranslucent());
         map.putBlock(ModBlocks.MAPLE_TRAP_DOOR, RenderLayer.getTranslucent());
         map.putBlock(ModBlocks.AUTUMN_MAPLE_DOOR, RenderLayer.getTranslucent());
         map.putBlock(ModBlocks.AUTUMN_MAPLE_TRAP_DOOR, RenderLayer.getTranslucent());
         map.putBlock(ModBlocks.PALE_OAK_TRAP_DOOR, RenderLayer.getTranslucent());
+
+        map.putBlock(ModBlocks.UPDATE_ALTAR, RenderLayer.getCutout());
+        map.putBlock(ModBlocks.UPDATE_ALTAR, RenderLayer.getTranslucent());
+
 
         EntityModelLayerRegistry.registerModelLayer(ColdChickenModel.COLD_CHICKEN, ColdChickenModel::getTexturedModelData);
         EntityRendererRegistry.register(ModEntities.COLD_CHICKEN, ColdChickenRenderer::new);

@@ -34,11 +34,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:pale_hanging_moss"
+          "name": "pupdates:pale_hanging_moss"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/pale_hanging_moss"
+  "random_sequence": "pupdates:blocks/pale_hanging_moss"
 }

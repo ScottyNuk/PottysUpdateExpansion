@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RESIN_BRICK);
                         entries.add(ModItems.BLUE_EGG);
                         entries.add(ModItems.BROWN_EGG);
+                        entries.add(ModItems.MAPLE_LEAF);
                         entries.add(ModItems.CKINGS_HEART);
                     }).build());
 
@@ -32,7 +33,6 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.CREAKING_HEART);
-                        entries.add(ModBlocks.DESERT_POPPY);
 
 
 

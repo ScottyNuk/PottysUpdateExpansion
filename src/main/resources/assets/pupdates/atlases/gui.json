@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "pupdates:gui/sprites/container/update_altar"
+    }
+  ]
+}
